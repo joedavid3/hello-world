@@ -3,14 +3,3 @@
 *.cpp text *.h  text 
 .gitattributes  text 
 .gitignore      text 
-project(hello)
-cmake_minimum_required(VERSION 2.8)
-add_executable(hello hello.cpp)
-install(TARGETS hello DESTINATION bin) 
-
-#include <iostream>
-
-int main() {
-std::cout << "Hello World!" << std::endl;
-return 0;
-}
